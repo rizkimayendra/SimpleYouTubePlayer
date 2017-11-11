@@ -21,7 +21,7 @@ $(document).ready(function(){
       var i = u.substring(u.search('=')+1,u.length);
 
       // build player
-      $('#mPlayer DIV').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/' + i + '" frameborder="0" allowfullscreen></iframe>');
+      $('#mPlayer DIV').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/' + i + '?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
 
       // display player
       $('#mPlayer').fadeIn(500);
